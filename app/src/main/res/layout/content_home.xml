@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_welcome"
+        android:textSize="@dimen/dimen_text_45"
+       android:layout_marginTop="@dimen/dimen_200"
+        android:gravity="center"
+        android:textColor="@color/material_brown_200"
+
+        />
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_30"
+        android:layout_marginTop="@dimen/dimen_250"
+        android:gravity="center"
+        android:textColor="@color/material_brown_200"
+
+        />
+
+    <TextView
+        android:id="@+id/fnametv"
+        android:layout_width="@dimen/dimen_250"
+        android:layout_height="wrap_content"
+        android:text="@string/st_fname"
+        android:textSize="@dimen/dimen_text_20"
+        android:layout_marginTop="350dp"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/dimen_10"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="textStart"
+
+        />
+    <TextView
+        android:id="@+id/lnametv"
+        android:layout_width="@dimen/dimen_250"
+        android:layout_height="wrap_content"
+        android:text="@string/st_lname"
+        android:textSize="@dimen/dimen_text_20"
+        android:textAlignment="textStart"
+        android:paddingBottom="@dimen/dimen_10"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/fnametv"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/emailtv"
+        android:layout_width="@dimen/dimen_250"
+        android:layout_height="wrap_content"
+        android:text="@string/st_email"
+        android:textSize="@dimen/dimen_text_20"
+        android:textAlignment="textStart"
+        android:paddingBottom="@dimen/dimen_10"
+        android:textColor="@color/colorBlack"
+        android:layout_above="@+id/phonetv"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/phonetv"
+        android:layout_width="@dimen/dimen_250"
+        android:layout_height="wrap_content"
+        android:text="@string/st_phone"
+        android:textSize="@dimen/dimen_text_20"
+        android:textAlignment="textStart"
+        android:paddingBottom="@dimen/dimen_10"
+        android:layout_alignBaseline="@+id/phoneH"
+        android:layout_alignBottom="@+id/phoneH"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/fnameH"
+        android:layout_width="@dimen/dimen_250"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/dimen_text_20"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+
+        android:layout_alignBaseline="@+id/fnametv"
+        android:layout_alignBottom="@+id/fnametv"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="@dimen/dimen_10"/>
+    <TextView
+        android:id="@+id/lnameH"
+        android:layout_width="@dimen/dimen_250"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/dimen_text_20"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/fnameH"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="@dimen/dimen_10"/>
+    <TextView
+        android:id="@+id/emailH"
+        android:layout_width="@dimen/dimen_250"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/dimen_text_20"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/lnameH"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="@dimen/dimen_10"/>
+    <TextView
+        android:id="@+id/phoneH"
+        android:layout_width="@dimen/dimen_250"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/dimen_text_20"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/emailH"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="@dimen/dimen_10"/>
+
+
+
+
+</RelativeLayout>

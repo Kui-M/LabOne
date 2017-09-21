@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab One</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+    <string name="st_username">Username</string>
+    <string name="st_fname">First Name</string>
+    <string name="st_lname">Last Name</string>
+    <string name="st_email">Email</string>
+    <string name="st_phone">Phone No.</string>
+    <string name="st_pass">Password</string>
+    <string name="st_welcome">WELCOME</string>
+
+    <string name="btn_createAcc">Create Account</string>
+    <string name="st_login">Login</string>
+    <string name="title_activity_home">Home</string>
+</resources>
+
